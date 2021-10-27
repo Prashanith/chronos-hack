@@ -8,9 +8,14 @@
   height: fit-content;
   margin-bottom: 0.75rem;
   text-align: center;
-  
+
   letter-spacing: 2px;
   font-size: clamp(0.8rem, 4.5vw, 1.2rem);
+}
+
+.logo {
+  display: inline-block;
+  flex-direction: column;
 }
 .nav-bar h3 {
   margin: 0px;
@@ -26,6 +31,6 @@
   margin: 0px;
 }
 
-.backStyle{
+.backStyle {
   cursor: pointer;
 }
