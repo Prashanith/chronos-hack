@@ -11,7 +11,9 @@
 
 .anchors{
     text-decoration: none;
-    color: aqua;
+    color: honeydew;
+    text-transform: uppercase;
+    font-size: large;
     margin: 0 40px;
 }
 

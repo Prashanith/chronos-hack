@@ -9,7 +9,8 @@ import {
 import AddInfo from './components/common/stockgallery/stockgallery';
 import FarmerHome from './components/farmer/home';
 import VendorHome from './components/vendor/home';
-import PostDetails from './components/postDetails';
+import Shop from './components/common/Shop/shop';
+
 function App() {
   return (
     <div className="App">
@@ -20,7 +21,7 @@ function App() {
             <Route path="/loginFarmer" component={Login}/>
             <Route path="/farmer" component={FarmerHome}/>
             <Route path="/vendor" component={VendorHome}/>
-            {/* <Route path="/details" component={PostDetails}/> */}
+            <Route path="/shop" component={Shop}/>
             
             {/* <Route path="/" component={}/> */}
             <Route path="/" component={Home}/>
