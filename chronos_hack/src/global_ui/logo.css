@@ -1,10 +1,7 @@
-
-.logo-container{
+.logo-container {
   display: flex;
   justify-content: center;
 }
-.logo-container img{
-    
-    height: auto;
-    width: min(50%,250px)
+.logo-container img {
+  width: min(50%, 250px);
 }

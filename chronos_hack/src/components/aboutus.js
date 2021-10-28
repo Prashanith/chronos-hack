@@ -4,17 +4,18 @@ export default function About() {
     return (
         <div id="aboutUs" className="fullscreen about">            
             <span className="about-title" >
-                About Farmhouse
+                About Us
             </span>
             <div className="underline">
                 
             
             </div>
             <span className="about-sub">
-            codeCraft is the flagship event conducted by coding.Studio(); every year. It is a 2-day long programming event in which participants are introduced to the world of competitive programming through various challenges, quizzes, talks, and finally a live contest where teams of participants solve programming problems within a stipulated time. 
+            Farmhouse gives a solution to a major obstacle to increasing farmers’ income which are profitable intermediaries such as commission agents, investors, and wholesalers who take a primary bite of benefit from farmers’ produce and leave very little for the farmers.
+
             </span>
             <span className="about-sub">
-            codeCraft aims to promote the competitive programming culture in our college and make sure that every participant gets an experience of an adrenaline-rushing competition with their peers. The 2-day program is suitable for both novices who want to start their programming journey and for advanced programmers who are in it to win it!
+            Through Farmhouse farmers can directly sell their goods to vendors. Thereby eliminating the middlemen and assuring quality.
             </span>
             <div className="space5"></div>
         </div>
