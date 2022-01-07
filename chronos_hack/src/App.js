@@ -12,6 +12,7 @@ import VendorHome from './components/vendor/home';
 import PostDetails from './components/postDetails';
 import Shop from './components/common/Shop/shop';
 import Advice from './components/advice';
+import Purchase from './components/purchase/purchase';
 
 function App() {
   return (
@@ -33,7 +34,7 @@ function App() {
             <Route path="/advice" component={Advice}/>
             
             {/* <Route path="/" component={}/> */}
-            <Route path="/" component={Home}/>
+            <Route path="/" component={Purchase}/>
 
           </Switch>
         </Router>    
